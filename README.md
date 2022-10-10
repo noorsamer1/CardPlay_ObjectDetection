@@ -19,7 +19,7 @@ Noor-Aldeen Alharahshes & Laith abuassoud & shahed alruwaidan :
 all team worked together  to write  logic code  & fixed error
 
 ## Playing-card - Folder (phase 1)
-detection card type using yolov5
+detection card type using yolov5.
 
 ``` git clone https://github.com/ultralytics/yolov5 ``` 
 
@@ -33,7 +33,7 @@ detection card type using yolov5
 
 _______________________________________________________________
 ## Tarneeb - Folder (phase 2) : 
-1. download weight & source code (cardetection.py detection with out change card in round , realtime.py can change card in round )
-2. select camera source   
+1. download weight & source code (cardetection.py detection with out change card in round , realtime.py can change card in round ).
+2. select camera source from inside the source code above.  
 3. run command in Anaconda Prompt (anaconda) :
-```python  sourcecode.py```
+```python  cardetection.py or realtime.py ```
