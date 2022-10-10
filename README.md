@@ -1,9 +1,9 @@
-# playingcard-detection-project
+# Playingcard-Detection-Project
 
-## brief about our project
+## Brief about our project
  
 **The project was divided into two phases:**
-- The first phase was gathering the data set of playing cards that we had collected and preparing it for the object detection model (yolov5). We labeled our images using roboflow and detecting type of the card (Rank & Suit).
+- The first phase was gathering the data set of playing cards that we had collected and preparing it for the object detection model (yolov5). We labeled our images using roboflow and detecting type of the card (Rank & Suit). <img src="Screenshot 2.png" alt="Example of Labeling the data "  title="Example of Labeling the data " />
 - The second phase was about writing code for Arabian Tarneeb live stream game and making the code contain the greatest number of features that we could create in the shortest amount of time.
 This is the first version of the project, which is still in development.
 - We used opencv & pytorch to satisfy our requirements.
@@ -18,7 +18,7 @@ Noor-Aldeen Alharahshes & Laith abuassoud & shahed alruwaidan :
 4. Laith and I we wrote the code for the Tarneeb game.
 all team worked together  to write  logic code  & fixed error
 
-## playing-card - Folder (phase 1)
+## Playing-card - Folder (phase 1)
 detection card type using yolov5
 
 ``` git clone https://github.com/ultralytics/yolov5 ``` 
@@ -32,7 +32,7 @@ detection card type using yolov5
 ``` !python detect_new.py --weights best.pt --imgsz 416 --source 0 ```
 
 _______________________________________________________________
-## Tarneeb -Folder (phase 2) : 
+## Tarneeb - Folder (phase 2) : 
 1. download weight & source code (cardetection.py detection with out change card in round , realtime.py can change card in round )
 2. select camera source   
 3. run command in Anaconda Prompt (anaconda) :
